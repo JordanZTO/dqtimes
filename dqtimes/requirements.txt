@@ -3,7 +3,11 @@ distributed
 numpy
 scipy
 fastapi
-datetime
 uvicorn
 python-multipart
 bokeh
+
+# Banco e migrations
+SQLAlchemy>=2.0
+alembic>=1.13
+psycopg2-binary>=2.9
